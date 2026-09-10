@@ -2016,6 +2016,11 @@ body {
     display: inline-block;
 }
 
+.about-hero-content .about-hero-location {
+  display: block;
+  margin-top: 18px;
+}
+
 .about-hero-label {
   display: inline-flex;
   align-items: center;
@@ -3663,7 +3668,8 @@ body {
   background: #f4f7fc;
 }
 
-.contact-card h3 {
+.contact-card .contact-card-title {
+  font-size: 1.17em;
   color: var(--vca-blue);
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -3704,7 +3710,8 @@ body {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
-.map-card h3 {
+.map-card .map-card-title {
+  font-size: 1.17em;
   color: var(--vca-blue);
   margin-bottom: 18px;
 }
@@ -4837,8 +4844,6 @@ body.page-fade-out {
     transform: none;
   }
 }
-
-
 
 
 
