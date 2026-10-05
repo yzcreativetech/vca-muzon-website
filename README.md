@@ -1,25 +1,22 @@
-# VCA Muzon Website (UAT)
+# VCA Muzon Website (Production)
 
-This repository contains the User Acceptance Testing (UAT) version of the
+This repository contains the production version of the
 Victory Churches of Asia - Muzon website.
 
-Purpose:
-- Review new features
-- Pastor approval
-- Testing before production
+Deployment target:
+https://yzcreativetech.github.io/vca-muzon-website/
 
 Production website:
 https://vcamuzon.org/
 
-This is the canonical public production identity. This repository is the separate
-UAT environment used to review changes before production promotion.
+This is the canonical public production identity.
 
 ## Development workflow
 
-Changes are implemented and reviewed in this UAT repository before approval
-and promotion to the production website. Each completed milestone should be
-validated locally, committed with a focused message, pushed to the UAT branch,
-and confirmed through the repository's GitHub Actions checks when available.
+Changes are implemented and approved in the separate UAT repository before
+promotion to this production repository. Validate the promoted files locally,
+remove UAT review markers, and push approved changes to production `main`.
+Confirm the GitHub Pages deployment after publication.
 
 ## Progress
 
